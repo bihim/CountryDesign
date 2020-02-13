@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity">
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/receiver_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="text"
+            android:hint="Receiver Name" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="number"
+            android:hint="Mobile Number" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="text"
+            android:hint="Bank Name" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/branch_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="text"
+            android:hint="Branch Name" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/account_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:hint="Account Number" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:borderColor="@color/colorPrimaryDark"
+        app:borderWidth="2dp"
+        app:cornerRadius="10dp"
+        android:padding="16dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:hint="Amount" />
+
+    </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+    <com.manojbhadane.QButton
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Send"
+        android:textColor="@android:color/white"
+        app:qb_backgroundColor="@color/colorPrimary"
+        app:qb_radius="100"
+        app:qb_strokeWidth="5" />
+
+    <Button
+        android:id="@+id/next_activity"
+        android:text="next activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

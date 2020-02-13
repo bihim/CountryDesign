@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CountryDesign</string>
+    <string name="payment_method">Choose Carrier</string>
+</resources>
